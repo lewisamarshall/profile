@@ -15,3 +15,6 @@ export EDITOR=/usr/bin/vim
 
 # Set blocksize for filesize
 export BLOCKSIZE=1k
+
+# Create trash command
+trash () { command mv "$@" ~/.Trash ; }
